@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Disney Media&Entertaintment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav"> 
+            <img class="logo" src="data:image/png;base64,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" alt="" srcset=""> 
+            <ul class="main-menu">
+                <li><a href="">ABOUT </a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">DISNEY+</a></li>
+                <li><a href="">ESPN+</a></li>
+                <li><a href="">BUSINESS FUNCTIONS</a></li>
+             
+            </ul>
+         </nav>
+        
+    </div>   
+    <div class="head3">
+        <div>
+            <form class="form">
+                <input class="search"type="text" placeholder="Search">
+                <button class="Searchbutton" type="submit"> 
+                    <img src="https://static-mh.content.disney.io/matterhorn/assets/goc/inc-search-input-icon-blue-331475a2cf98.svg" alt="">
+                 </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="img1">
+        <div>
+            <h3 class="disneyday">
+                NEWS DISNEY+
+                <p>Disney+ Day Kicks Off with the Surprise Release of the Concert Film “BTS: PERMISSION TO DANCE ON STAGE – LA” and a Special Sneak Peek at “Andor”</p>
+            </h3>
+        </div>
+    </div> 
+    <div>
+        <p class="recent">Recent News</p>
+    </div>  
+    <section >
+<div class="home-cards">
+<div class="cardsone">
+<h3 class="news">
+    NEWS DMED
+    <p>Disney Advertising Provides Opportunity for Sponsors to Get Up Close and Personal with Launch of The ACC Huddle on the Road</p>
+</h3> 
+
+</div>
+<div class="cardstwo">
+  <h3 class="dmed">
+     NEWS DISNEY+
+    <p>Magical Teaser Trailer And Key Art For Disney’s All-New Live-Action Musical Comedy “Disenchanted” Now Available</p>
+  </h3>  
+</div>
+<div class="cardsthree">
+    <h3 class="simpson">
+        NEWS DISNEY+
+        <p>We'll Be At Moe's! "The Simpsons" Season 33 Streams October 5 on Disney+</p>
+    </h3>
+</div>
+</div>
+    </section>
+    <section >
+        <div class="home-cards1">
+        <div class="cardsone1">
+            <h3 class="debuts">
+                NEWS DISNEY+
+                <p>Disney+ Debuts Trailer For Disney Original Documentary’s ‘Mickey: The Story Of A Mouse’</p>
+            </h3>
+        </div>
+        <div class="cardstwo1">
+            <h3 class="adverting">
+                NEWS DMED
+                <p>Disney Adverting Hits the Road for 2022-23 College Football Season with Strong Slate of College GameDay Built by The Home Depot Sponsors</p>
+            </h3>
+        </div>
+        <div class="cardsthree1">
+           <h3 class="dancing">
+            NEWS DISNEY+
+            <p>‘Dancing With The Stars’ Is Back For Season 31 With An All-New Celebrity Cast Dancing Their Way To Disney+ And The Mirrorball Trophy</p>
+        </h3> 
+        </div>
+        </div>
+            </section>
+
+            <div>
+                <h3 class="mediakits">
+                    Media Kits
+                </h3>
+            </div>
+            <section>
+         <div class="full-portion">
+            <div class="left-portion">
+                <img class="left"src="https://lumiere-a.akamaihd.net/v1/images/image_14_1b7f51d8.png?region=0,0,800,800" alt="">
+            </div>
+            <div>
+
+            </div>
+            <div class="Right-portion">
+                <img class="righttop" src="https://lumiere-a.akamaihd.net/v1/images/image_16_72f33e43.png?region=29,0,818,460" alt="">
+                <img class="rightbottom"src="https://lumiere-a.akamaihd.net/v1/images/image_17_4222bb8a.png?region=58,0,818,460" alt="">
+            </div>
+         </div>
+            <div class="last-image">
+                
+            </div>
+            <div><h3 class="disneymedia">
+                About DMED
+                <p>Disney Media &amp; Entertainment Distribution (DMED) brings together the Company’s best-in-class product, technology, and commercialization teams into one global organization.</p>
+            </h3></div>
+            
+               
+            
+            <div >
+                <img class="logolast" src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="foal">
+                <nav class="footer">
+                  <ul class="footerul">
+                     <li><a class="fli" href="#">Terms of Use</a></li>
+                     <li><a class="fli" href="#"> Additional Content Information</a></li>
+                     <li><a class="fli" href="#">Privacy Policy+</a></li>
+                     <li><a class="fli" href="#">Your California Privacy Rights+</a></li>
+                     <li><a class="fli" href="#">Children's Online Privacy Policy</a></li>
+                     <li><a class="fli" href="#"> Interest-Based Ads </a></li>
+                     <li><a class="fli" href="#">Do Not Sell My Personal Information</a></li>   
+                     <li><a class="fli" href="#">Sitemap</a></li>
+                  </ul>
+                  <ul class="skip"></ul>
+                  <div class="last">
+                   <center> © Disney, All Rights Reserved</center>
+                  </div>
+              </nav>
+              </div> 
+        
+</body>
+</html>
